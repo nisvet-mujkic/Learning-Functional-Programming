@@ -3,9 +3,51 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 1 - The functional toolkit", "Part 1 - The functional toolkit", "{B0048D82-8CAD-4687-B62E-DD8C9B422F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalToolkit", "FunctionalToolkit\FunctionalToolkit.csproj", "{69C4B5FC-5C09-4388-BD7F-E90418C72FDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Coffee Breaks", "Coffee Breaks", "{F4B59FC0-B497-470F-95D7-80EDF7F7C67E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImperativeVsDeclarative", "ImperativeVsDeclarative\ImperativeVsDeclarative.csproj", "{D80C764A-A075-45FA-A37C-3C4CE8E50367}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6652AED4-6707-4C15-8611-058180412807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F7772CCF-2595-4F25-97FD-D1EE00E78F5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 1 - The functional toolkit", "Part 1 - The functional toolkit", "{C4DDDF4A-2E5F-42CC-B375-3A5E861EB004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalToolkit.UnitTests", "FunctionalToolkit.UnitTests\FunctionalToolkit.UnitTests.csproj", "{97D5DB35-9124-40C0-9A16-956D98A83EE7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69C4B5FC-5C09-4388-BD7F-E90418C72FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C4B5FC-5C09-4388-BD7F-E90418C72FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C4B5FC-5C09-4388-BD7F-E90418C72FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C4B5FC-5C09-4388-BD7F-E90418C72FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80C764A-A075-45FA-A37C-3C4CE8E50367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80C764A-A075-45FA-A37C-3C4CE8E50367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80C764A-A075-45FA-A37C-3C4CE8E50367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80C764A-A075-45FA-A37C-3C4CE8E50367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D5DB35-9124-40C0-9A16-956D98A83EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D5DB35-9124-40C0-9A16-956D98A83EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D5DB35-9124-40C0-9A16-956D98A83EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D5DB35-9124-40C0-9A16-956D98A83EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0048D82-8CAD-4687-B62E-DD8C9B422F1A} = {6652AED4-6707-4C15-8611-058180412807}
+		{69C4B5FC-5C09-4388-BD7F-E90418C72FDE} = {B0048D82-8CAD-4687-B62E-DD8C9B422F1A}
+		{F4B59FC0-B497-470F-95D7-80EDF7F7C67E} = {B0048D82-8CAD-4687-B62E-DD8C9B422F1A}
+		{D80C764A-A075-45FA-A37C-3C4CE8E50367} = {F4B59FC0-B497-470F-95D7-80EDF7F7C67E}
+		{C4DDDF4A-2E5F-42CC-B375-3A5E861EB004} = {F7772CCF-2595-4F25-97FD-D1EE00E78F5B}
+		{97D5DB35-9124-40C0-9A16-956D98A83EE7} = {C4DDDF4A-2E5F-42CC-B375-3A5E861EB004}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F27455E2-B87F-40B7-99C2-124B6154DA63}
