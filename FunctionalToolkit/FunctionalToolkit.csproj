@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ImperativeVsDeclarative\ImperativeVsDeclarative.csproj" />
+    <ProjectReference Include="..\PureFunctions\PureFunctions.csproj" />
   </ItemGroup>
 
 </Project>
